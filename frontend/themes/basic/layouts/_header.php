@@ -70,7 +70,6 @@ use yii\bootstrap\Nav;
             }
 
             $this->params['rightMenuItems'] = $rightMenuItems;
-            $this->trigger('beforeRenderRightMenu');
             echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],
                 'items' => $this->params['rightMenuItems'],
