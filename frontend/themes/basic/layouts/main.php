@@ -30,6 +30,27 @@ $this->registerMetaTag([
     <link type="image/x-icon" href="<?= Yii::getAlias('@web') ?>favicon.ico" rel="shortcut icon">
     <script>var SITE_URL = '<?= Yii::$app->request->hostInfo . Yii::$app->request->baseUrl ?>';</script>
     <?php $this->head() ?>
+    <style>
+        /*body{*/
+            /*background-image: Url('./uploads/bg.jpg');*/
+
+        /*}*/
+        body {
+
+            /*overflow: hidden;*/
+
+            /*position: fixed;*/
+
+            /*width:100%;*/
+
+            /*height:100%;*/
+
+            background: url("./uploads/bg.jpg") no-repeat,url('./uploads/bg_point.png');
+
+            background-size:cover;
+
+        }
+    </style>
 </head>
 <body>
 <?php $this->beginBody() ?>

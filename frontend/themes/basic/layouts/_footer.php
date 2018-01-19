@@ -2,6 +2,11 @@
 use yii\helpers\Url;
 
 ?>
+<style>
+    footer {
+        background:linear-gradient(45deg, #cacaca, #919191);
+    }
+</style>
 <footer class="footer">
     <div class="container">
         <div class="footer-link">
