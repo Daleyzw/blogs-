@@ -48,7 +48,7 @@ use common\models\Article;
         ])?>
         <div class="panel panel-success">
             <div class="panel-heading">
-                <h5 class="panel-title">热门教程</h5>
+                <h5 class="panel-title">浏览量排行</h5>
             </div>
             <div class="panel-body">
                 <ul class="post-list">
@@ -72,7 +72,7 @@ use common\models\Article;
         </div>
         <div class="panel panel-success">
             <div class="panel-heading">
-                <h5 class="panel-title">推荐内容</h5>
+                <h5 class="panel-title">热门文章</h5>
             </div>
             <div class="panel-body">
                 <ul class="post-list">
@@ -85,7 +85,7 @@ use common\models\Article;
                 </ul>
             </div>
         </div>
-        <div class="panel panel-success">
+<!--        <div class="panel panel-success">
             <div class="panel-heading">
                 <h5 class="panel-title">活跃用户</h5>
             </div>
@@ -101,6 +101,6 @@ use common\models\Article;
                     <?php endforeach; ?>
                 </ul>
             </div>
-        </div>
+        </div>-->
     </div>
 </div>
