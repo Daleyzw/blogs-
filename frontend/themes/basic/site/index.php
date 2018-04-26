@@ -90,17 +90,17 @@ use common\models\Article;
                 <h5 class="panel-title">活跃用户</h5>
             </div>
             <div class="panel-body">
-                <ul class="login-user-list">
-                    <?php $users = \common\modules\user\models\User::find()->orderBy('login_at desc')->limit(6)->all();foreach($users as $user): ?>
-                        <li class="col-md-4 col-xs-4 mb15">
+                <ul class="login-user-list">-->
+                    <?php //$users = \common\modules\user\models\User::find()->orderBy('login_at desc')->limit(6)->all();foreach($users as $user): ?>
+        <!--  <li class="col-md-4 col-xs-4 mb15">
                             <a href="<?= Url::to(['/user/default/index', 'id' => $user->id]) ?>">
                                 <img src="<?= $user->getAvatar(64) ?>" alt="<?= $user->username ?>">
                                 <p><?= $user->username ?></p>
                             </a>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-            </div>
-        </div>-->
+                        </li>-->
+                    <?php //endforeach; ?>
+        <!--</ul>
+     </div>
+ </div>-->
     </div>
 </div>
