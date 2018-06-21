@@ -13,6 +13,9 @@ if (!checkInstalled()) {
     die;
 }
 
+
+
+
 //echo '<pre>';var_dump(__DIR__.'/../common/config/main.php');exit;
 $config = yii\helpers\ArrayHelper::merge(
     require(__DIR__.'/../common/config/main.php'),
